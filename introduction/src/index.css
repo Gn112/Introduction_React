@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav_header {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
